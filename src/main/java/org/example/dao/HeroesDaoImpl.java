@@ -43,7 +43,7 @@ public class HeroesDaoImpl implements HeroesDao {
     }
 
     @Override
-    public HeroesDao finById(int id) {
+    public HeroesDto finById(int id) {
         return null;
     }
     private void rollback() {

@@ -8,5 +8,5 @@ public interface HeroesDao {
 
     List<HeroesDto> findAll();
 
-    HeroesDao finById(int id);
+    HeroesDto finById(int id);
 }

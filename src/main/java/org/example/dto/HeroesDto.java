@@ -2,6 +2,8 @@ package org.example.dto;
 
 import lombok.*;
 
+import java.io.Serializable;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
@@ -9,7 +11,7 @@ import lombok.*;
 @Getter
 @ToString
 
-public class HeroesDto {
+public class HeroesDto implements Serializable {
 
     private int id;
     private String nature;
